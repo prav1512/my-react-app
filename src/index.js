@@ -6,6 +6,7 @@ import ProfileButton from './component/ProfileButton.jsx';
 import LoginSignupButton from './component/LoginSignupButton.jsx';
 import SearchBar from './component/SearchBar.jsx';
 import FeedNavigation from './component/FeedNavigation.jsx'
+// import MyApp from './component/MyApp.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ root.render(
     <LoginSignupButton />
     <SearchBar />
     <FeedNavigation />
+    {/* <MyApp /> */}
     </React.StrictMode>
 );
 
