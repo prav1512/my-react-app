@@ -24,11 +24,36 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <title>Side-by-Side Button Example</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        h1 {
+            margin-right: 10px; /* Add margin to separate the h1 and button */
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: #007bff; /* Button color */
+            color: white; /* Button text color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
     <title>React App</title>
+    <div class="container">
+      <h1>Bhara.com</h1>
+      <button>log in</button>
+  </div>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+   
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
